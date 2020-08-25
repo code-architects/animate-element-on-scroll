@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    height: 80vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url("https://lorempixel.com/1200/800/nature/?random=0");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headertitle {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.section {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #eaeaea;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    transition: 0.15s;
+}
+.section:hover {
+    background: #e3e3e3;
+}
+.section img {
+    place-self: center;
+}
+.section .text {
+    text-align: justify;
+    font-size: 20px;
+}
