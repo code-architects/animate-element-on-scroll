@@ -8,9 +8,10 @@ body {
     background: #f2f2f2;
     font-family: 'Lato', sans-serif;
 }
+
 .header {
     height: 80vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url("https://lorempixel.com/1200/800/nature/?random=0");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url("https://picsum.photos/1200/800/?random=0");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -19,7 +20,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-.headertitle {
+
+.header-title {
     color: #fff;
     font-size: 60px;
     text-transform: uppercase;
